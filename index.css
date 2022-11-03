@@ -1,0 +1,31 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* CSS Reset - reduce the inconsistency of the browser */ 
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.dev-name {
+	font-size: 18px;
+}
+
+.dev-desc {
+	font-size: 15px;
+}
+
+.profile-card {
+	background-color: #1e2b3a !important;
+}
+
+.profile-about-me {
+	background-color: #162331 !important;
+}
+
+.profile-about-me hr {
+	color: #fff;
+}
+
