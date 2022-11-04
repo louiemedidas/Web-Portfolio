@@ -23,9 +23,33 @@ body {
 
 .profile-about-me {
 	background-color: #162331 !important;
+	font-size: 14px;
 }
 
 .profile-about-me hr {
 	color: #fff;
 }
 
+.progress {
+	height: .75rem !important;
+}
+
+.w-95 {
+	width: 95% !important;
+}
+.w-90 {
+	width: 90% !important;
+}
+.w-85 {
+	width: 85% !important;
+}
+.w-80 {
+	width: 80% !important;
+}
+.w-70 {
+	width: 70% !important;
+}
+
+.work-exp {
+	background-color: #162331 !important;
+}

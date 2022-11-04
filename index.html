@@ -7,6 +7,7 @@
 
 	<!-- CSS References -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="./round-progress-bar.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 	<!-- Google Fonts -->
@@ -18,9 +19,9 @@
 
 </head>
 <body class="bg-dark">
-	<div class="container-fluid p-3">
+	<div class="container-lg p-3">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-lg-4 col-sm-12">
 				<div class="text-center profile-card">
 					<img class="rounded-circle img-fluid mx-auto p-3" src="Images/profile-1.jpg" width="200">		
 					<div class="card-body">
@@ -28,7 +29,7 @@
 							<p class="text-muted card-text dev-desc">dotNet C# Full-stock Developer</p>
 						</div>
 					</div>
-					<div class="p-3 profile-about-me">						
+					<div class="p-4 profile-about-me">						
 						<div class="d-flex justify-content-between">
 							<span class="text-white fw-bolder">Date of Birth:</span>	
 							<span class="text-muted">May 1, 1992</span>				
@@ -39,37 +40,36 @@
 						</div>		
 						<div class="d-flex justify-content-between">
 							<span class="text-white fw-bolder">Gender:</span>		
-							<span class="text-muted">Male</span>				
+							<span class="text-muted text-break">Male</span>				
 						</div>
 						<div class="d-flex justify-content-between">
 							<span class="text-white fw-bolder">Civil Status:</span>		
-							<span class="text-muted">Married</span>				
+							<span class="text-muted text-break">Married</span>				
 						</div>
 						<hr>
 						<div class="d-flex justify-content-between ps-3 pe-3">
-							<div class="d-flex col-3 justify-content-center align-items-center">
+							<div class="d-flex col-3 align-items-center">
 								<i class="fs-1 text-white fa-solid fa-location-dot"></i>
 							</div>	
 							<div class="d-flex col-8 flex-column">
-								<span class="text-white fs-6">Zone 6, Brgy. Languas</span>	
-								<span class="text-white fs-6">San Fernando City, La Union</span>
-								<span class="text-white fs-6">Philippines 2500</span>
+								<span class="text-white fs-6 text-break">Languas, San Fernando City</span>	
+								<span class="text-white fs-6 text-break">La Union, Philippines 2500</span>
 							</div>	
 						</div>	
 						<div class="d-flex justify-content-between p-3">
-							<div class="d-flex col-3 justify-content-center align-items-center">
+							<div class="d-flex col-3 align-items-center">
 								<i class="fs-1 text-white fa-solid fa-phone-volume"></i>
 							</div>	
 							<div class="d-flex col-8 align-items-center">
-								<span class="text-white fs-6">+639569132005</span>	
+								<span class="text-white fs-6 text-break">+639569132005</span>	
 							</div>	
 						</div>
 						<div class="d-flex justify-content-between ps-3 pe-3">
-							<div class="d-flex col-3 justify-content-center align-items-center">
+							<div class="d-flex col-3 align-items-center">
 								<i class="fs-1 text-white fa-solid fa-envelope-circle-check"></i>
 							</div>	
 							<div class="d-flex col-8 align-items-center">
-								<span class="text-white fs-6">louie.medidas@gmail.com</span>	
+								<span class="text-white fs-6 text-break">louie.medidas@gmail.com</span>	
 							</div>	
 						</div>
 						<hr>
@@ -78,21 +78,401 @@
 							<span class="text-muted">95%</span>				
 						</div>
 						<div class="progress">
-						  <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar bg-warning w-95" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<div class="d-flex justify-content-between mt-1">
-							<span class="text-white fw-bolder">ASP.NET</span>		
+							<span class="text-white fw-bolder">MS SQL</span>		
 							<span class="text-muted">90%</span>				
 						</div>
 						<div class="progress">
-						  <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar bg-warning w-90" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">ASP.NET MVC</span>	
+							<span class="text-muted">95%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-95" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">HTML</span>		
+							<span class="text-muted">90%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-90" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">JavaScript</span>		
+							<span class="text-muted">85%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-85" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">Jquery</span>		
+							<span class="text-muted">80%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-80" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">Vue.js</span>		
+							<span class="text-muted">85%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-85" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">CSS, Bootstrap</span>		
+							<span class="text-muted">75%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="d-flex justify-content-between mt-1">
+							<span class="text-white fw-bolder">GIT, Azure DevOps</span>		
+							<span class="text-muted">75%</span>				
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<hr>
+						<div class="d-flex justify-content-center">
+							<div class="d-flex flex-column justify-content-center">	
+								<div class="progress-circle over50 p99">
+									<span class="text-white">100%</span>
+									<div class="left-half-clipper">
+										<div class="first50-bar"></div>
+										<div class="value-bar"></div>
+									</div>
+								</div>
+								<span class="text-white fw-bolder d-flex justify-content-center">Filipino</span>
+							</div>
+							<div class="d-flex flex-column justify-content-center">
+								<div class="progress-circle over50 p90">
+									<span class="text-white">90%</span>
+									<div class="left-half-clipper">
+										<div class="first50-bar"></div>
+										<div class="value-bar"></div>
+									</div>
+								</div>	
+								<span class="text-white fw-bolder d-flex justify-content-center">English</span>
+							</div>
+						</div>						
+					</div>
+					<div class="profile-card">
+						<div class="d-flex justify-content-center p-2">
+							<a href="https://www.facebook.com/" target="_blank" class="me-2">
+								<i class="fs-2 text-secondary fa-brands fa-facebook"></i>	
+							</a>
+							<a href="https://www.linkedin.com/feed/" target="_blank" class="me-2">
+								<i class="fs-2 text-secondary fa-brands fa-linkedin"></i>	
+							</a>
+							<a href="https://www.youtube.com/" target="_blank" class="me-2">
+								<i class="fs-2 text-secondary fa-brands fa-youtube"></i>
+							</a>
+							<a href="https://twitter.com/?lang=en" target="_blank" class="me-2">
+								<i class="fs-2 text-secondary fa-brands fa-twitter"></i>
+							</a>
+							<a href="https://github.com/" target="_blank" class="me-2">
+								<i class="fs-2 text-secondary fa-brands fa-github"></i>	
+							</a>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>	
+				<div class="col-lg-8 col-sm-12">
+					<nav id="navbar-main" class="navbar navbar-light navbar-expand-lg bg-dark bg-gradient">
+						<div class="container-fluid text-white">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#WorkExp">Work Experience</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#Projects">Projects</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#Education">Education</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#ContactMe">Contact Me</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<main class="container-fluid text-white">
+						<div class="d-flex flex-column justify-content-center mb-3">
+							<h2 class="text-uppercase text-white text-center">Carrier Objective</h1>
+								<div class="text-white text-center">
+									A knowledgeable and experienced individual seeking for a Software Engineer / .Net
+									Developer position. To be able to work for an encouraging company that will assist me
+									in developing, improving and obtaining necessary skill in order to become the best
+									developer possible.
+								</div>
+							</div>					
+							<div class="row mb-3">
+								<div class="col-4 d-flex justify-content-center">
+									<h1 class="text-warning pe-3">8+</h1>
+									<span class="d-flex justify-content-center align-items-center">Years Experience</span>
+								</div>
+								<div class="col-4 d-flex">
+									<h1 class="text-warning pe-3">10+</h1>
+									<span class="d-flex justify-content-center align-items-center">Project Handled / Completed</span>
+								</div>
+								<div class="col-4 d-flex">
+									<h1 class="text-warning pe-3">4</h1>
+									<span class="d-flex justify-content-center align-items-center">Employers / Clients</span>
+								</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center mb-3" id="WordExp">
+								<h2 class="text-uppercase text-white text-center">Work Experience</h1>
+									<div class="text-white border border-white p-3">
+										<div class="row">
+											<div class="col-6 pt-2">
+												<div class="card work-exp ">
+													<span class="card-header fs-5 fw-bold">World Trade Organization, Switzerland</span>
+													<div class="card-body pt-0">
+														<span class="card-title fs-5 ">.Net Developer / Consultant</span>
+														<p class="card-text fs-6 text-muted">Develop and design web application based on the requirements of
+														the client using Microsoft Technologies including Azure DevOps.</p>
+														<a href="https://www.wto.org/">Go to website</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-6 pt-2">
+												<div class="card work-exp">
+													<span class="card-header fs-5 fw-bold">Philus Technology Inc. (Punongbayan and Araullo)</span>
+													<div class="card-body pt-0">
+														<span class="card-title fs-5 ">.Net Developer / Consultant</span>
+														<p class="card-text fs-6 text-muted">Develop and design web application based on the requirements of
+														the client using Microsoft Technologies including Azure DevOps.</p>
+														<a href="https://www.grantthornton.com.ph/about/">Go to website</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-6 pt-2">
+												<div class="card work-exp">
+													<span class="card-header fs-5 fw-bold">Web Developer (Freelance) LTO Region 1 Office</span>
+													<div class="card-body pt-0">
+														<span class="card-title fs-5 ">.Net Developer</span>
+														<p class="card-text fs-6 text-muted">Develop and design web application based on the requirements of
+														the client using Microsoft Technologies.</p>
+														<a href="https://ltoregion1.wordpress.com/">Go to website</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-6 pt-2">
+												<div class="card work-exp">
+													<span class="card-header fs-5 fw-bold">Primesoft Philippines Incorporated</span>
+													<div class="card-body pt-0">
+														<span class="card-title fs-5 ">.Net Developer</span>
+														<p class="card-text fs-6 text-muted">Develop and design web application based on the requirements of
+														the client using Microsoft Technologies.</p>
+														<a href="#">No Website</a>
+													</div>
+												</div>
+											</div>
+										</div>									
+									</div>
+								</div>	
+								<div class="d-flex flex-column justify-content-center mb-3"id="Projects">
+									<h2 class="text-uppercase text-white text-center">My Projects</h2>
+									<div class="card bg-dark border border-white p-4">	
+										<div class="row">
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/tcdb.png" class="card-img-top p-2" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Home</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															This is where you can find the news and current events happening inside WTO.
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/tcdb-2.png" class="card-img-top p-2" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Searching</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															This is where you can search all the meetings and related concern of all items in WTO.
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/tcdb-3.png" class="p-2 card-img-top" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Exploration</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															A range of options for exploring and visualizing trade concerns is provided to users.
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/tcdb-4.png" class="card-img-top p-2" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Resources</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															WTO databases offer users the possibility of consulting a wealth of trade.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>	
+										<div class="card-body">
+											<h4 class="text-white text-center">Trade Concern Database Project</h4>
+											<div class="card-text text-center">
+												WTO Committees and Councils are fundamental fora for discussion. Members use these multilateral settings to raise trade concerns with respect to measures which may affect their trade. These discussions can help ease trade tensions by providing further information and clarification, working towards mutually satisfactory solutions.
+												Since 1995, Members have devoted an increasing amount of time and attention to the discussion of trade concerns. This improves understanding of the rationale behind other Members' regulations, shedding light on details regarding implementation and enforcement. In certain cases, this has effectively facilitated the resolution of trade issues arising between Members.
+												The Trade Concerns Database allows users to search for trade concerns raised in the Committee on Market Access (CMA), SPS and TBT Committees, to view Members’ profiles and to explore and visualize results according to different criteria. Trade concerns raised in other WTO bodies can be included at a later stage.
+											</div>
+										</div>
+									</div>	
+									<div class="card bg-dark border border-white p-4 mt-3">	
+										<div class="row">
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/eping-1.png" class="card-img-top p-2" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Home</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															This is where you can find the news and current events happening inside WTO.
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/eping-2.png" class="card-img-top p-2" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Search DB</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															Collection of notifications, search for the notification using Azure Cognitive.
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/eping-3.png" class="p-2 card-img-top" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">Profile</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															Chart repesentation of all the notifications and trade concern of specific country.
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 pb-md-3 pb-sm-3">
+												<div class="card text-white border border-white bg-secondary">
+													<img src="./Images/eping-4.png" class="card-img-top p-2" height="200">
+													<span class="text-uppercase text-white text-center fs-5 fw-bold">More Info</span>
+													<div class="card-body">
+														<div class="card-text text-left">
+															You can find information about the website and notification processes.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>	
+										<div class="card-body">
+											<h4 class="text-white text-center">Trade Concern Database Project</h4>
+											<div class="card-text">
+												The ePing SPS & TBT Platform facilitates tracking sanitary and phytosanitary (SPS) and technical barriers to trade (TBT) measures. As a user, you can, amongst others:
+												<ul class="text-left">
+													<li>Browse notifications on new and updated product regulations.</li>
+													<li>Find information on trade concerns discussed in the WTO SPS and TBT committees.</li>
+													<li>Locate information on enquiry points and notification authorities.</li>
+													<li>Sign up to receive email alerts  and to follow notifications on products and/or markets of interest.</li>
+													<li>Reach out to national and international counterparts.</li>
+												</ul>
+											</div>
+										</div>
+									</div>					
+								</div>
+								<div class="d-flex flex-column justify-content-center mb-3"id="Education">
+									<h2 class="text-uppercase text-white text-center">Educational Background</h1>
+										<div class="text-white text-center border border-white p-3">
+											<div class="row">
+												<div class="col-4">
+													<img src="./Images/SLC.jpg" class="img-fluid">
+												</div>
+												<div class="col-8 d-flex flex-column justify-content-center align-items-center">
+													<h5>Saint Louis College, La Union</h5>
+													<span>2009 - 2013</span>
+													<span>Bachelor of Science in Information Technology</span>
 
-		<!-- JS Dependencies -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
-	</html>
+													<span class="text-white text-left fs-6 fw-bold">Award: Best in Capstone</span>
+												</div>
+											</div>
+											<hr>
+											<div class="row">
+												<div class="col-4">
+													<img src="./Images/LUNHS2.jpg" class="img-fluid">
+												</div>
+												<div class="col-8 d-flex flex-column justify-content-center align-items-center">
+													<h5>LA UNION NATION HIGH SCHOOL</h5>
+													<span>2004 - 2009</span>
+												</div>
+											</div>
+										</div>
+									</div>	
+									<div class="d-flex flex-column justify-content-center mb-3" id="ContactMe">
+										<h2 class="text-uppercase text-white text-center">Contact Me</h1>
+											<div class="text-white text-center border border-white p-3">
+												<div class="row">
+													<div class="col-12">
+														<form>
+															<div class="mt-3">
+																<label for="fullName" class="form-label">Name</label>
+																<input type="text" class="form-control" id="fullName" placeholder="Your Name">
+															</div>
+															<div>
+																<label for="emailAddress" class="form-label">Email address</label>
+																<input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+															</div>
+															<div>
+																<label for="contactNumber" class="form-label">Contact Number</label>
+																<input type="number" class="form-control" id="contactNumber" placeholder="+63 900 000 0000">
+															</div>
+															<div>
+																<label for="concern" class="form-label">Concern</label>	
+																<select class="form-select" id="concern" aria-label="Default select example">
+																	<option value="1">Question</option>
+																	<option value="2">Request</option>
+																</select>
+															</div>
+															<div class="mb-3">
+																<label for="message" class="form-label">Message</label>
+																<textarea class="form-control" id="message"></textarea>
+															</div>
+															<button type="button" class="btn btn-warning mb-3 d-flex" data-bs-toggle="modal" data-bs-target="#sendEmail">
+																Send Email
+															</button>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</div>						
+									</main>
+								</div>
+							</div>			
+						</div>	
+
+						<!-- JS Dependencies -->
+						<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+					</body>
+					</html>
