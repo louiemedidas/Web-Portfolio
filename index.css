@@ -53,3 +53,8 @@ body {
 .work-exp {
 	background-color: #162331 !important;
 }
+
+#navbar-main {
+	top: 0;
+	z-index: 9;
+}
